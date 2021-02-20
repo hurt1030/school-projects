@@ -1,3 +1,5 @@
+# Uses BFS to determine the best solution to the missionaries and cannibals game
+
 class GameState:
     def __init__(self, ml = 0, cl = 0, mr = 3, cr = 3, b = 'r'):
         self.ml = ml
